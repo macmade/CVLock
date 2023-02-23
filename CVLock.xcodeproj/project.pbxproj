@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05850C2A29A7E3B60024DE55 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05850C2929A7E3B60024DE55 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		05850C2429A7E3B60024DE55 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05850C2629A7E3B60024DE55 /* CVLock */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CVLock; sourceTree = BUILT_PRODUCTS_DIR; };
+		05850C2929A7E3B60024DE55 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		05850C3129A7F1900024DE55 /* CVLock.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CVLock.hpp; sourceTree = "<group>"; };
+		05850C3229A7F1C80024DE55 /* CVRecursiveLock.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CVRecursiveLock.hpp; sourceTree = "<group>"; };
+		05850C3329A7FC200024DE55 /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
+		05850C3429A7FC200024DE55 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		05850C3529A7FC200024DE55 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		05850C3729A7FC2C0024DE55 /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
+		05850C3829A7FC2C0024DE55 /* Release - ccache.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Release - ccache.xcconfig"; sourceTree = "<group>"; };
+		05850C3929A7FC2C0024DE55 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		05850C3A29A7FC2C0024DE55 /* Debug - ccache.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Debug - ccache.xcconfig"; sourceTree = "<group>"; };
+		05850C3B29A7FC2C0024DE55 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		05850C3C29A7FC2C0024DE55 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		05850C3D29A7FC2C0024DE55 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		05850C3E29A7FC2C0024DE55 /* Release - Library.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Release - Library.xcconfig"; sourceTree = "<group>"; };
+		05850C4029A7FC2C0024DE55 /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Signing.xcconfig; sourceTree = "<group>"; };
+		05850C4129A7FC2C0024DE55 /* Architectures.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Architectures.xcconfig; sourceTree = "<group>"; };
+		05850C4329A7FC2C0024DE55 /* Issues.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Issues.xcconfig; sourceTree = "<group>"; };
+		05850C4529A7FC2C0024DE55 /* Apple-APIs.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Apple-APIs.xcconfig"; sourceTree = "<group>"; };
+		05850C4629A7FC2C0024DE55 /* Generic-Issues.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Generic-Issues.xcconfig"; sourceTree = "<group>"; };
+		05850C4729A7FC2C0024DE55 /* Security.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Security.xcconfig; sourceTree = "<group>"; };
+		05850C4829A7FC2C0024DE55 /* Objective-C.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Objective-C.xcconfig"; sourceTree = "<group>"; };
+		05850C4929A7FC2C0024DE55 /* Analysis-Policy.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Analysis-Policy.xcconfig"; sourceTree = "<group>"; };
+		05850C4A29A7FC2C0024DE55 /* Deployment.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Deployment.xcconfig; sourceTree = "<group>"; };
+		05850C4B29A7FC2C0024DE55 /* Build-Options.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Build-Options.xcconfig"; sourceTree = "<group>"; };
+		05850C4C29A7FC2C0024DE55 /* Swift-Compiler.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Swift-Compiler.xcconfig"; sourceTree = "<group>"; };
+		05850C4D29A7FC2C0024DE55 /* Static-Analyzer.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Static-Analyzer.xcconfig"; sourceTree = "<group>"; };
+		05850C4F29A7FC2C0024DE55 /* Warnings-Policies.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Warnings-Policies.xcconfig"; sourceTree = "<group>"; };
+		05850C5029A7FC2C0024DE55 /* Code-Generation.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Code-Generation.xcconfig"; sourceTree = "<group>"; };
+		05850C5129A7FC2C0024DE55 /* Language.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Language.xcconfig; sourceTree = "<group>"; };
+		05850C5229A7FC2C0024DE55 /* General.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = General.xcconfig; sourceTree = "<group>"; };
+		05850C5329A7FC2C0024DE55 /* Search-Paths.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Search-Paths.xcconfig"; sourceTree = "<group>"; };
+		05850C5429A7FC2C0024DE55 /* Apple-LLVM.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Apple-LLVM.xcconfig"; sourceTree = "<group>"; };
+		05850C5729A7FC2C0024DE55 /* Modules.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Modules.xcconfig; sourceTree = "<group>"; };
+		05850C5829A7FC2C0024DE55 /* Objective-C.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Objective-C.xcconfig"; sourceTree = "<group>"; };
+		05850C5929A7FC2C0024DE55 /* C++.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "C++.xcconfig"; sourceTree = "<group>"; };
+		05850C5A29A7FC2C0024DE55 /* Code-Generation.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Code-Generation.xcconfig"; sourceTree = "<group>"; };
+		05850C5B29A7FC2C0024DE55 /* Address-Sanitizer.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Address-Sanitizer.xcconfig"; sourceTree = "<group>"; };
+		05850C5C29A7FC2C0024DE55 /* Language.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Language.xcconfig; sourceTree = "<group>"; };
+		05850C5D29A7FC2C0024DE55 /* Warnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
+		05850C5E29A7FC2C0024DE55 /* Undefined-Behavior-Sanitizer.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Undefined-Behavior-Sanitizer.xcconfig"; sourceTree = "<group>"; };
+		05850C5F29A7FC2C0024DE55 /* Warning-Policies.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Warning-Policies.xcconfig"; sourceTree = "<group>"; };
+		05850C6129A7FC2C0024DE55 /* Objective-C-ARC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Objective-C-ARC.xcconfig"; sourceTree = "<group>"; };
+		05850C6229A7FC2C0024DE55 /* Objective-C.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Objective-C.xcconfig"; sourceTree = "<group>"; };
+		05850C6329A7FC2C0024DE55 /* C++.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "C++.xcconfig"; sourceTree = "<group>"; };
+		05850C6429A7FC2C0024DE55 /* All-Languages.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "All-Languages.xcconfig"; sourceTree = "<group>"; };
+		05850C6529A7FC2C0024DE55 /* Preprocessing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Preprocessing.xcconfig; sourceTree = "<group>"; };
+		05850C6629A7FC2C0024DE55 /* Debug - Library.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Debug - Library.xcconfig"; sourceTree = "<group>"; };
+		05850C6729A7FC2C0024DE55 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		05850C6929A7FC2C0024DE55 /* ccache-config.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "ccache-config.sh"; sourceTree = "<group>"; };
+		05850C6A29A7FC2C0024DE55 /* ccache.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ccache.sh; sourceTree = "<group>"; };
+		05850C6C29A7FC2C0024DE55 /* FUNDING.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = FUNDING.yml; sourceTree = "<group>"; };
+		05850C6D29A7FC2C0024DE55 /* Debug - zld.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Debug - zld.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05850C2329A7E3B60024DE55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05850C1D29A7E3B60024DE55 = {
+			isa = PBXGroup;
+			children = (
+				05850C3529A7FC200024DE55 /* README.md */,
+				05850C3329A7FC200024DE55 /* CODE_OF_CONDUCT.md */,
+				05850C3429A7FC200024DE55 /* LICENSE */,
+				05850C3629A7FC2C0024DE55 /* xcconfig */,
+				05850C2829A7E3B60024DE55 /* CVLock */,
+				05850C2729A7E3B60024DE55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05850C2729A7E3B60024DE55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05850C2629A7E3B60024DE55 /* CVLock */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05850C2829A7E3B60024DE55 /* CVLock */ = {
+			isa = PBXGroup;
+			children = (
+				05850C2929A7E3B60024DE55 /* main.cpp */,
+				05850C3129A7F1900024DE55 /* CVLock.hpp */,
+				05850C3229A7F1C80024DE55 /* CVRecursiveLock.hpp */,
+			);
+			path = CVLock;
+			sourceTree = "<group>";
+		};
+		05850C3629A7FC2C0024DE55 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				05850C3729A7FC2C0024DE55 /* CODE_OF_CONDUCT.md */,
+				05850C3829A7FC2C0024DE55 /* Release - ccache.xcconfig */,
+				05850C3929A7FC2C0024DE55 /* Common.xcconfig */,
+				05850C3A29A7FC2C0024DE55 /* Debug - ccache.xcconfig */,
+				05850C3B29A7FC2C0024DE55 /* Debug.xcconfig */,
+				05850C3C29A7FC2C0024DE55 /* Release.xcconfig */,
+				05850C3D29A7FC2C0024DE55 /* README.md */,
+				05850C3E29A7FC2C0024DE55 /* Release - Library.xcconfig */,
+				05850C3F29A7FC2C0024DE55 /* Common */,
+				05850C6629A7FC2C0024DE55 /* Debug - Library.xcconfig */,
+				05850C6729A7FC2C0024DE55 /* .gitignore */,
+				05850C6829A7FC2C0024DE55 /* Scripts */,
+				05850C6B29A7FC2C0024DE55 /* .github */,
+				05850C6D29A7FC2C0024DE55 /* Debug - zld.xcconfig */,
+			);
+			name = xcconfig;
+			path = Submodules/xcconfig;
+			sourceTree = "<group>";
+		};
+		05850C3F29A7FC2C0024DE55 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				05850C4029A7FC2C0024DE55 /* Signing.xcconfig */,
+				05850C4129A7FC2C0024DE55 /* Architectures.xcconfig */,
+				05850C4229A7FC2C0024DE55 /* Static-Analyzer */,
+				05850C4A29A7FC2C0024DE55 /* Deployment.xcconfig */,
+				05850C4B29A7FC2C0024DE55 /* Build-Options.xcconfig */,
+				05850C4C29A7FC2C0024DE55 /* Swift-Compiler.xcconfig */,
+				05850C4D29A7FC2C0024DE55 /* Static-Analyzer.xcconfig */,
+				05850C4E29A7FC2C0024DE55 /* Swift-Compiler */,
+				05850C5329A7FC2C0024DE55 /* Search-Paths.xcconfig */,
+				05850C5429A7FC2C0024DE55 /* Apple-LLVM.xcconfig */,
+				05850C5529A7FC2C0024DE55 /* Apple-LLVM */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		05850C4229A7FC2C0024DE55 /* Static-Analyzer */ = {
+			isa = PBXGroup;
+			children = (
+				05850C4329A7FC2C0024DE55 /* Issues.xcconfig */,
+				05850C4429A7FC2C0024DE55 /* Issues */,
+			);
+			path = "Static-Analyzer";
+			sourceTree = "<group>";
+		};
+		05850C4429A7FC2C0024DE55 /* Issues */ = {
+			isa = PBXGroup;
+			children = (
+				05850C4529A7FC2C0024DE55 /* Apple-APIs.xcconfig */,
+				05850C4629A7FC2C0024DE55 /* Generic-Issues.xcconfig */,
+				05850C4729A7FC2C0024DE55 /* Security.xcconfig */,
+				05850C4829A7FC2C0024DE55 /* Objective-C.xcconfig */,
+				05850C4929A7FC2C0024DE55 /* Analysis-Policy.xcconfig */,
+			);
+			path = Issues;
+			sourceTree = "<group>";
+		};
+		05850C4E29A7FC2C0024DE55 /* Swift-Compiler */ = {
+			isa = PBXGroup;
+			children = (
+				05850C4F29A7FC2C0024DE55 /* Warnings-Policies.xcconfig */,
+				05850C5029A7FC2C0024DE55 /* Code-Generation.xcconfig */,
+				05850C5129A7FC2C0024DE55 /* Language.xcconfig */,
+				05850C5229A7FC2C0024DE55 /* General.xcconfig */,
+			);
+			path = "Swift-Compiler";
+			sourceTree = "<group>";
+		};
+		05850C5529A7FC2C0024DE55 /* Apple-LLVM */ = {
+			isa = PBXGroup;
+			children = (
+				05850C5629A7FC2C0024DE55 /* Language */,
+				05850C5A29A7FC2C0024DE55 /* Code-Generation.xcconfig */,
+				05850C5B29A7FC2C0024DE55 /* Address-Sanitizer.xcconfig */,
+				05850C5C29A7FC2C0024DE55 /* Language.xcconfig */,
+				05850C5D29A7FC2C0024DE55 /* Warnings.xcconfig */,
+				05850C5E29A7FC2C0024DE55 /* Undefined-Behavior-Sanitizer.xcconfig */,
+				05850C5F29A7FC2C0024DE55 /* Warning-Policies.xcconfig */,
+				05850C6029A7FC2C0024DE55 /* Warnings */,
+				05850C6529A7FC2C0024DE55 /* Preprocessing.xcconfig */,
+			);
+			path = "Apple-LLVM";
+			sourceTree = "<group>";
+		};
+		05850C5629A7FC2C0024DE55 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				05850C5729A7FC2C0024DE55 /* Modules.xcconfig */,
+				05850C5829A7FC2C0024DE55 /* Objective-C.xcconfig */,
+				05850C5929A7FC2C0024DE55 /* C++.xcconfig */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		05850C6029A7FC2C0024DE55 /* Warnings */ = {
+			isa = PBXGroup;
+			children = (
+				05850C6129A7FC2C0024DE55 /* Objective-C-ARC.xcconfig */,
+				05850C6229A7FC2C0024DE55 /* Objective-C.xcconfig */,
+				05850C6329A7FC2C0024DE55 /* C++.xcconfig */,
+				05850C6429A7FC2C0024DE55 /* All-Languages.xcconfig */,
+			);
+			path = Warnings;
+			sourceTree = "<group>";
+		};
+		05850C6829A7FC2C0024DE55 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				05850C6929A7FC2C0024DE55 /* ccache-config.sh */,
+				05850C6A29A7FC2C0024DE55 /* ccache.sh */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		05850C6B29A7FC2C0024DE55 /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				05850C6C29A7FC2C0024DE55 /* FUNDING.yml */,
+			);
+			path = .github;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05850C2529A7E3B60024DE55 /* CVLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05850C2D29A7E3B60024DE55 /* Build configuration list for PBXNativeTarget "CVLock" */;
+			buildPhases = (
+				05850C2229A7E3B60024DE55 /* Sources */,
+				05850C2329A7E3B60024DE55 /* Frameworks */,
+				05850C2429A7E3B60024DE55 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CVLock;
+			productName = CVLock;
+			productReference = 05850C2629A7E3B60024DE55 /* CVLock */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05850C1E29A7E3B60024DE55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					05850C2529A7E3B60024DE55 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 05850C2129A7E3B60024DE55 /* Build configuration list for PBXProject "CVLock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05850C1D29A7E3B60024DE55;
+			productRefGroup = 05850C2729A7E3B60024DE55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05850C2529A7E3B60024DE55 /* CVLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05850C2229A7E3B60024DE55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05850C2A29A7E3B60024DE55 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		05850C2B29A7E3B60024DE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05850C3B29A7FC2C0024DE55 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		05850C2C29A7E3B60024DE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05850C3C29A7FC2C0024DE55 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		05850C2E29A7E3B60024DE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05850C2F29A7E3B60024DE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05850C2129A7E3B60024DE55 /* Build configuration list for PBXProject "CVLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05850C2B29A7E3B60024DE55 /* Debug */,
+				05850C2C29A7E3B60024DE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05850C2D29A7E3B60024DE55 /* Build configuration list for PBXNativeTarget "CVLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05850C2E29A7E3B60024DE55 /* Debug */,
+				05850C2F29A7E3B60024DE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05850C1E29A7E3B60024DE55 /* Project object */;
+}
